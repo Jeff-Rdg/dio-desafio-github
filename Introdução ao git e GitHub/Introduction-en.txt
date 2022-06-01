@@ -1,0 +1,43 @@
+Introduction to Git and GitHub
+
+
+Git is the free and open source distributed version control system that's responsible for everything GitHub related that happens locally on your computer. 
+
+INSTALLATION:
+
+GitHub for windows: (https://windows.github.com)
+
+GitHub for Mac: (https://mac.github.com)
+
+GitHub for all platforms: (http://git-scm.com)
+
+
+All commands  will be executed in terminal.
+CONFIGURING USER INFORMATION:
+
+git config --global user.name "[firstname lastname]"
+
+git config --global user.email "[valid-email]"
+
+
+SETUP AND INIT:
+
+git init	-> Initialize an existing directory as a Git repository
+
+git clone [url]	->retrieve an entire repository from a hosted location via URL
+
+git status	-> show modified files in working directory
+
+git add [file]		-> adda file as it looks now to your next commit
+
+git reset [file]	->unstage a file while retaining the changes in working directory
+
+git diff	-> diff of what is changed but not staged
+
+git diff --staged	->diff of what is staged but not yet commited
+
+git commit -m "[descriptive message]" 	-> Commit your staged content as a new commit snapshot
+
+
+
+
